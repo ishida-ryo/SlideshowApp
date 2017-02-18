@@ -24,7 +24,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fCr-xW-w2c">
-                                <rect key="frame" x="145" y="403" width="99" height="30"/>
+                                <rect key="frame" x="113" y="403" width="157" height="30"/>
                                 <state key="normal" title="再生/一時停止"/>
                                 <connections>
                                     <action selector="playPouseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IIx-Jn-5ld"/>
@@ -67,10 +67,10 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="EAv-98-MjC" firstAttribute="leading" secondItem="fCr-xW-w2c" secondAttribute="trailing" constant="46" id="7gJ-Dw-ubu"/>
+                            <constraint firstItem="EAv-98-MjC" firstAttribute="leading" secondItem="fCr-xW-w2c" secondAttribute="trailing" constant="20" id="7gJ-Dw-ubu"/>
                             <constraint firstAttribute="trailingMargin" secondItem="EAv-98-MjC" secondAttribute="trailing" constant="23" id="AxA-Ff-3EM"/>
                             <constraint firstItem="zEQ-bi-S0b" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="31" id="B5j-bi-Wna"/>
-                            <constraint firstItem="fCr-xW-w2c" firstAttribute="leading" secondItem="zEQ-bi-S0b" secondAttribute="trailing" constant="52" id="DXB-P9-7mS"/>
+                            <constraint firstItem="fCr-xW-w2c" firstAttribute="leading" secondItem="zEQ-bi-S0b" secondAttribute="trailing" constant="20" id="DXB-P9-7mS"/>
                             <constraint firstItem="idy-07-O9P" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="I8r-ZR-cJh"/>
                             <constraint firstItem="zEQ-bi-S0b" firstAttribute="baseline" secondItem="fCr-xW-w2c" secondAttribute="baseline" id="Jy6-GB-08e"/>
                             <constraint firstItem="ayu-Gw-aVr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="LjA-0U-PxP"/>
