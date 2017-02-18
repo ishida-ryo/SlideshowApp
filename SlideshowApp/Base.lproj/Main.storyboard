@@ -91,7 +91,6 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="oxw-KQ-vcs"/>
             </objects>
             <point key="canvasLocation" x="-900" y="89"/>
         </scene>
@@ -137,7 +136,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vsy-e1-Sv7" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="U5A-cs-vRH" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="178.40000000000001" y="114.69265367316342"/>
+            <point key="canvasLocation" x="-222" y="89"/>
         </scene>
     </scenes>
 </document>

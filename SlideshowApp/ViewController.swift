@@ -73,6 +73,13 @@ class ViewController: UIViewController {
         
         let bigImageViewController = segue.destination as! BigImageViewController
         bigImageViewController.image = imageView.image
+        
+        timer?.invalidate()
+        timer = nil
+        nextButton.isEnabled = true
+        prevButton.isEnabled = true
+
+        
     }
     
     @IBAction func segueButton(_ sender: Any) {
